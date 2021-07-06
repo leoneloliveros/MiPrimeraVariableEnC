@@ -4,24 +4,16 @@
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
+    int valA = 5, valB;
 
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
+    printf("Adivina el numero entre 1 y el 10 que estoy pensando! \n");
+    scanf("%i", &valB);
 
+    if(valA == valB)
+        printf("Adivinaste! \n");
 
-    printf("El valor de nuestro float A es: %f \n", floatA);
-
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
+    else
+        printf("Este no es, perdiste! \n");
 
     return 0;
 }
