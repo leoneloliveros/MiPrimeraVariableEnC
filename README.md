@@ -5,3 +5,13 @@
   >> * Ingresa y guarda el valor de ambas variables.
   >> * Intercambia el valor de las variables con ayuda de una variable auxiliar.
   >> * Imprime el valor de las variables ya intercambiadas.
+
+2. Segundo reto (br: **SecondChallenge**):
+  >> * Ingresa los valores necesarios para calcular el área de un cilindro (radio, altura, área y volumen).
+  >> * Realiza la operación.
+  >> * Imprime el resultado del área.
+
+3. Tercer reto (br: **ThirdChallenge**):
+  >> * Ingresa la temperatura en grados Fahrenheit.
+  >> * Realiza la operacion para convertir de grados Fahrenheit a Celcius.
+  >> * Imprime el resultado de la conversión.
