@@ -4,23 +4,24 @@
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
-
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
+    int x;
+    int y;
+    int aux;
 
 
-    printf("El valor de nuestro float A es: %f \n", floatA);
+    printf("Da el valor de X: ");
+    scanf("%i", &x);
 
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
+    printf("Da el valor de Y: ");
+    scanf("%i", &y);
 
 
+    aux = x;
+    x = y;
+    y = aux;
+
+    printf("El valor intercambiado del entero x es: %i \n", x);
+    printf("El valor intercambiado del entero y es: %i \n", y);
 
 
     return 0;
