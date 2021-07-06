@@ -4,24 +4,46 @@
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
+    printf("Condicion if \n");
 
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
+    float valA, valB, valC;
+    valA = valB = 100;
+
+    printf("Primera condicion \n");
+
+    if(valA == valB)
+        printf("Ambos son iguales \n");
+
+    printf("Segunda condicion \n");
+
+    if(valA == valB)
+    {
+        printf("Ambos son iguales \n");
+        valC = valA + valB;
+        printf("Ademas la suma de ambos numeros es: %f", valC);
+    }
+
+    // If - else
+
+    printf("\n Condicion if, else, else if \n");
+
+    float valA2, valB2, valC2;
+    valA2 = 50;
+    valB2 = 100;
+    valC2 = 150;
 
 
-    printf("El valor de nuestro float A es: %f \n", floatA);
+    printf("Condicion \n");
 
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
+    if(valA2 == valB2)
+        printf("No se va a cumplir esta condicion \n");
+    else if(valB2 == valC2)
+        printf("Tampoco se va a cumplir esta condicion \n");
+    else
+    {
+        printf("Ninguna condicion se cumplio \n");
+        printf("Despues de esta linea el programa va a terminar");
+    }
 
     return 0;
 }
