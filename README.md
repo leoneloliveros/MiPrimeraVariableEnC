@@ -15,3 +15,13 @@
   >> * Ingresa la temperatura en grados Fahrenheit.
   >> * Realiza la operacion para convertir de grados Fahrenheit a Celcius.
   >> * Imprime el resultado de la conversión.
+
+4. Cuarto reto (br: **FourthChallenge**):
+  >> * Crea una variable llamada x con valor 10.
+  >> * Utilizando operadores de asignación, que esta variable se sume a sí misma el doble de su valor.
+  >> * Imprime el resultado.
+
+5. Quinto reto (br: **FifthChallenge**):
+  >> * Ingresa un número entero.
+  >> * Usando operadores de asignación realiza la operación de módulo del valor ingresado con 5.
+  >> * Imprime el resultado más uno usando operadores de incremento.
