@@ -4,24 +4,34 @@
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
+    printf("Operadores de incremento y decremento \n");
 
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
+    int value, res;
 
+    value = 25;
 
-    printf("El valor de nuestro float A es: %f \n", floatA);
+    res = value++;
 
-    printf("El valor de nuestro double A es: %f \n", doubleA);
+    printf("El valor de nuestra variable es: %i \n", res);
+    printf("Resultado: %i \n", value);
 
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
+    value = 25;
 
+    res = ++value;
 
+    printf("El valor de nuestra variable es: %i \n", res);
 
+    value = 25;
 
+    res = value--;
+
+    printf("El valor de nuestra variable es: %i \n", res);
+
+    value = 25;
+
+    res = --value;
+
+    printf("El valor de nuestra variable es: %i \n", res);
 
     return 0;
 }
