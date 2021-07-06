@@ -1,26 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
+#define PI 3.141592
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
-
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
+    int radious;
+    int height;
+    float area;
+    float volumen;
 
 
-    printf("El valor de nuestro float A es: %f \n", floatA);
+    printf("Vamos a calcular el columen de un cilindro! \n");
 
-    printf("El valor de nuestro double A es: %f \n", doubleA);
+    printf("Ingresa el radio de la base: ");
+    scanf("%i", &radious);
 
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
+    printf("Ingresa la altura del cilindro: ");
+    scanf("%i", &height);
 
 
+    area = radious * PI;
+    volumen = area * height;
 
+    printf("El area de la base es: %f \n", area);
+    printf("El volumen del cilindro es: %f \n", volumen);
 
 
     return 0;
