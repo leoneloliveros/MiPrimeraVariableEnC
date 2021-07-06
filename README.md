@@ -25,3 +25,9 @@
   >> * Ingresa un número entero.
   >> * Usando operadores de asignación realiza la operación de módulo del valor ingresado con 5.
   >> * Imprime el resultado más uno usando operadores de incremento.
+
+6. Sexto reto (br: **SixthChallenge**):
+  >> Haremos un programa que adivine el número de la computadora.
+  >> * Definir una variable cuyo valor es 5.
+  >> * En otra variable ingresar un número con la instrucción, entre el 1 y el 10.
+  >> * Si el número ingresado es igual a la variable definida (5). Imprimir "Adivinaste". Si no imprimir "Ese no es, perdiste".
