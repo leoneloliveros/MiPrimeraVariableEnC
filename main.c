@@ -9,19 +9,19 @@ int main()
     double doubleA = 1.2;
     char letterA = 'A';
 
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
 
+    printf("Ingrese el valor del entero A: ");
+    scanf("%i", &integerA);
 
-    printf("El valor de nuestro float A es: %f \n", floatA);
+    printf("Ingrese el valor del float A: ");
+    scanf("%f", &floatA);
 
-    printf("El valor de nuestro double A es: %f \n", doubleA);
+    printf("Ingrese el valor del caracter A: ");
+    scanf(" %c", &letterA);
 
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
+    printf("el valor del entero A es: %i \n", integerA);
+    printf("el valor del float A es: %f \n", floatA);
+    printf("el valor del caracter A es: %c \n", letterA);
 
     return 0;
 }
