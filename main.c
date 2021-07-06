@@ -4,23 +4,32 @@
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
+    printf("Operadores de asignacion");
 
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
+    int value;
 
+    value = 11;
 
-    printf("El valor de nuestro float A es: %f \n", floatA);
+    printf("El valor de nuestra variable es: %i \n", value);
 
-    printf("El valor de nuestro double A es: %f \n", doubleA);
+    value += 1;
 
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
+    printf("El valor de nuestra variable es: %i \n", value);
 
+    value -= 2;
 
+    printf("El valor de nuestra variable es: %i \n", value);
 
+    value *= 5;
+
+    printf("El valor de nuestra variable es: %i \n", value);
+
+    value /= 4;
+
+    printf("El valor de nuestra variable es: %i \n", value);
+
+    value %= 6;
+    printf("El valor de nuestra variable es: %i \n", value);
 
 
     return 0;
