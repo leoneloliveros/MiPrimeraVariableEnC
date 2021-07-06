@@ -1,26 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
+#define PI 3.141592
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
+    float celsious;
+    float fahrenheit;
 
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
+    printf("Hola! Vamos a transformar grado Fahrenheit a grados Celsius \n");
 
-
-    printf("El valor de nuestro float A es: %f \n", floatA);
-
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
+    printf("Ingresa la temperatura en grados Fahrenheit: ");
+    scanf("%f", &fahrenheit);
 
 
+    celsious = ( fahrenheit - 32) * 5/9;
 
+    printf("La temperatura en grados celsius es: %f \n", celsious);
 
 
     return 0;
