@@ -4,24 +4,23 @@
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
+    int rSum;
+    float rRest;
+    float rDiv;
+    float rMult;
+    int rMod;
 
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
+    rSum = 7 + 3;
+    rRest = 7.1 - 3.1;
+    rDiv = 7.0 / 3.0;
+    rMult = 7 * 3;
+    rMod = 7 % 3;
 
-
-    printf("El valor de nuestro float A es: %f \n", floatA);
-
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
+    printf("Resultado de la suma: %i \n", rSum);
+    printf("Resultado de la resta: %f \n", rRest);
+    printf("Resultado de la division: %f \n", rDiv);
+    printf("Resultado de la multiplicacion: %f \n", rMult);
+    printf("Resultado del modulo: %i \n", rMod);
 
     return 0;
 }
