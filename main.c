@@ -1,27 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
-
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
-
-
-    printf("El valor de nuestro float A es: %f \n", floatA);
-
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
-
+    printf("Condicional Switch \n");
+    
+    int option;
+    
+    scanf("%i", &option);
+    
+    switch(option)
+    {
+        case 1:
+            printf("Elegiste el numero 1 \n");
+            break;
+        case 2:
+            printf("Elegiste el numero 2 \n");
+            break;
+        case 3:
+            printf("Elegiste el numero 3 \n");
+            break;
+        default:
+            printf("Elegiste una opcion invalida \n");
+            break;
+            
+    }
+    
     return 0;
 }
