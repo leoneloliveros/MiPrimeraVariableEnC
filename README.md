@@ -54,4 +54,8 @@
   >> * Vamos a hacer un pequeño juego de texto.
   >> * Imprimir una pequeña introduccion, con tres opciones a elegir, numeradas del 1 al 3.
   >> * Cada una de ellas te debe de imprimir un resultado distinto en la historia.
-  
+
+10. Décimoo reto (br: **TenthChallenge**):
+  >> * Hacer un programa que imprima el símbolo de # en 5 filas.
+  >> * Tip: puedes usar operadores de incremento y decremento.
+ 
