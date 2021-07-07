@@ -1,5 +1,10 @@
 # Programa Basico en Lenguaje C (Sintaxis)
 
+## Commands
+ >> Run Xcode: 
+ >> 1. clang main.c -o ProgramacionEstructurada
+ >> 2. ./ProgrmacionEstructurada
+
 1. Primer reto (br: **FirstChallenge**):
   >> * Crear dos variables.
   >> * Ingresa y guarda el valor de ambas variables.
@@ -31,3 +36,10 @@
   >> * Definir una variable cuyo valor es 5.
   >> * En otra variable ingresar un número con la instrucción, entre el 1 y el 10.
   >> * Si el número ingresado es igual a la variable definida (5). Imprimir "Adivinaste". Si no imprimir "Ese no es, perdiste".
+
+6. Septimo reto (br: **SeventhChallenge**):
+  >> * Imprime la instrucción ingresa el primer número.
+  >> * Ingresa el número en una variable.
+  >> * Repite para un segunda variable.
+  >> * Si el primer número es menor que el segundo, imprime el primer número.
+  >> * Si no, imprime el segundo número.
