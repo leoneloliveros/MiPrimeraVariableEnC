@@ -37,9 +37,15 @@
   >> * En otra variable ingresar un número con la instrucción, entre el 1 y el 10.
   >> * Si el número ingresado es igual a la variable definida (5). Imprimir "Adivinaste". Si no imprimir "Ese no es, perdiste".
 
-6. Septimo reto (br: **SeventhChallenge**):
+7. Septimo reto (br: **SeventhChallenge**):
   >> * Imprime la instrucción ingresa el primer número.
   >> * Ingresa el número en una variable.
   >> * Repite para un segunda variable.
   >> * Si el primer número es menor que el segundo, imprime el primer número.
   >> * Si no, imprime el segundo número.
+
+8. Octavo reto (br: **EighthChallenge**):
+  >> * Hacer un programa que reciba la calificación de un alumno.
+  >> * Si el alumno sacó menos de 60, imprimir que el alumno está reprobado.
+  >> * Si el alumno sacó mas de 60, imprimir que el alumno está aprobado.
+  >> * Extra: Si el alumno sacó mas de 90, imprimir que está aprobado y una carita feliz.
