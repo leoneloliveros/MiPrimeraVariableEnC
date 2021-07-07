@@ -49,3 +49,9 @@
   >> * Si el alumno sacó menos de 60, imprimir que el alumno está reprobado.
   >> * Si el alumno sacó mas de 60, imprimir que el alumno está aprobado.
   >> * Extra: Si el alumno sacó mas de 90, imprimir que está aprobado y una carita feliz.
+
+9. Noveno reto (br: **NinthChallenge**):
+  >> * Vamos a hacer un pequeño juego de texto.
+  >> * Imprimir una pequeña introduccion, con tres opciones a elegir, numeradas del 1 al 3.
+  >> * Cada una de ellas te debe de imprimir un resultado distinto en la historia.
+  
