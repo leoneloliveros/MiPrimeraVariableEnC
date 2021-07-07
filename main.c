@@ -1,27 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
+    int valA;
+    int valB;
 
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
+    printf("Ingresa el primer numero: \n");
+    scanf("%i", &valA);
 
-
-    printf("El valor de nuestro float A es: %f \n", floatA);
-
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
+    printf("Ingresa el segundo numero: \n");
+    scanf("%i", &valB);
+    
+    if(valA < valB)
+        printf("el numero menor es: %i", valA);
+    else
+        printf("el numero menor es: %i", valB);
 
     return 0;
 }
