@@ -61,4 +61,7 @@
   
 11. Décimo primer reto (br: **EleventhChallenge**):
   >> * Usando For, imprime la secuencia Fibonacci hasta la novena vuelta.
+
+12. Décimo segundo reto (br: **TwelfthChallenge**):
+  >> * Usando do while, imprime los primeros 100 números naturales.
   
