@@ -3,7 +3,7 @@
 ## Commands
  >> Run Xcode: 
  >> 1. clang main.c -o ProgramacionEstructurada
- >> 2. ./ProgrmacionEstructurada
+ >> 2. ./ProgramacionEstructurada
 
 1. Primer reto (br: **FirstChallenge**):
   >> * Crear dos variables.
@@ -64,4 +64,9 @@
 
 12. Décimo segundo reto (br: **TwelfthChallenge**):
   >> * Usando do while, imprime los primeros 100 números naturales.
+
+13. Décimo tercero reto (br: **ThirteenthChallenge**):
+  >> * Ingresar valores a un arreglo con un tamaño de 5.
+  >> * Multiplicar todos sus valores.
+  >> * Imprimir el resultado.
   
