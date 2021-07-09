@@ -79,4 +79,8 @@
 
 15. Décimo quinto reto (br: **FifteenthChallenge**):
   >> * Escribir un programa que nos diga el número más grande de un arreglo. Utilizando arreglos e iteradores.
-  >> * 
+  >> Crear un arreglo de 5 filas por 6 columnas en donde:
+  >> * Los primeros 5 elementos cada fila tengan calificaciones aprobatorias entre 6 y 10.
+  >> * El sexto elemento de cada fila debe ser cero.
+  >> * Calcula el promedio de los primeros 5 elementos de cada fila y asignalo al sexto elemento.
+  >> * Imprime el primedio de cada fila de calificaciones.
