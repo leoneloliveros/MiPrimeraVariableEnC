@@ -1,27 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
-
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
-
-
-    printf("El valor de nuestro float A es: %f \n", floatA);
-
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
-
+    int array[3][4] = {{1, 1, 1, 1}, {2, 2, 2, 4}, {5, 5, 10, 6}};
+    int value = 0;
+    
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 4; j++)
+        {
+            value += array[i][j];
+        }
+        printf("Fila %i: %i \n", i + 1, value);
+        value = 0;
+    }
     return 0;
 }
