@@ -1,27 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
-
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
-
-
-    printf("El valor de nuestro float A es: %f \n", floatA);
-
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
-
+    int valuesList[5];
+    int result = 1;
+    
+    printf("Ingresa los valores: \n");
+    for (int i = 1; i <= 5; i++) {
+        printf("Valor[%i]: ", i);
+        scanf("%i", &valuesList[i]);
+        result *= valuesList[i];
+    }
+    
+    printf("\n El resultado es: %i", result);
+    
     return 0;
 }
