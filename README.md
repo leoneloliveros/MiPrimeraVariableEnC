@@ -69,4 +69,11 @@
   >> * Ingresar valores a un arreglo con un tamaño de 5.
   >> * Multiplicar todos sus valores.
   >> * Imprimir el resultado.
+
+14. Décimo cuarto reto (br: **FourteenthChallenge**):
+  >> Crea un arreglo de 3 filas por 4 columnas en donde:
+  >> * Los elementos de la primera fila sumen un total de 4.
+  >> * Los elementos de la segunda fila sumen un total de 10.
+  >> * Los elementos de la tercera fila sumen un total de 26.
+  >> * Imprime las sumatorias de cada fila.
   
