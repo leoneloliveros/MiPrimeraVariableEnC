@@ -76,4 +76,7 @@
   >> * Los elementos de la segunda fila sumen un total de 10.
   >> * Los elementos de la tercera fila sumen un total de 26.
   >> * Imprime las sumatorias de cada fila.
-  
+
+15. Décimo quinto reto (br: **FifteenthChallenge**):
+  >> * Escribir un programa que nos diga el número más grande de un arreglo. Utilizando arreglos e iteradores.
+  >> * 
