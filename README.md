@@ -84,3 +84,6 @@
   >> * El sexto elemento de cada fila debe ser cero.
   >> * Calcula el promedio de los primeros 5 elementos de cada fila y asignalo al sexto elemento.
   >> * Imprime el primedio de cada fila de calificaciones.
+
+16. Décimo sexto reto (br: **SixteenthChallenge**):
+  >> * Haz un programa que reciba una cadena de caracteres e imprima de regreso la misma cadena de forma invertida.
