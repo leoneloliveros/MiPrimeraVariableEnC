@@ -1,27 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
-
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
-
-
-    printf("El valor de nuestro float A es: %f \n", floatA);
-
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
+    printf("Arreglos e iteradores \n");
+    
+    int integerArray[11];
+    
+    for(int i = 0; i < 11; i++)
+    {
+        integerArray[i] = i*i;
+        printf("Valor (%i): %i \n", i, integerArray[i]);
+    }
 
     return 0;
 }
