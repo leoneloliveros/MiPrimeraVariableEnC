@@ -1,27 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
+
+int expFunc(int base, int exponent)
+{
+    int res = 1;
+    for(int i = 0; i < exponent; i++)
+    {
+        res *= base;
+    }
+    return res;
+}
 
 int main()
 {
-    int integerA = 1;
-    float floatA = 1.1;
-    double doubleA = 1.2;
-    char letterA = 'A';
+    int b, e;
+    printf("Ingresa el valor base: ");
+    scanf("%i", &b);
+    
+    printf("Ingresa el valor exponente: ");
+    scanf("%i", &e);
 
-    // Forma de imprimir un valor en consola, se debe agregar %i
-    printf("El valor de nuestro entero A es: %i \n", integerA);
-
-
-    printf("El valor de nuestro float A es: %f \n", floatA);
-
-    printf("El valor de nuestro double A es: %f \n", doubleA);
-
-    printf("El valor de nuestro caracter A es: %c \n", letterA);
-
-
-
-
+    printf("El resultado es: %i", expFunc(b,e));
 
     return 0;
 }
