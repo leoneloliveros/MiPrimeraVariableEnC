@@ -87,3 +87,10 @@
 
 16. Décimo sexto reto (br: **SixteenthChallenge**):
   >> * Haz un programa que reciba una cadena de caracteres e imprima de regreso la misma cadena de forma invertida.
+
+17. Décimo septimo reto (br: **SeventeenthChallenge**):
+  >> * Vamos a calcular la potencia de un número.
+  >> * Ingresar un valor base.
+  >> * Ingresar un valor de exponente.
+  >> * Dentro de una función calcular el exponente del número base.
+  >> * Imprime el resultado.
